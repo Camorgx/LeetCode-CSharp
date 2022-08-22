@@ -1,4 +1,5 @@
 ﻿// https://leetcode.cn/problems/maximum-binary-tree/
+using LeetCode_CSharp;
 
 namespace MaximumBinaryTree {
     public static class Test {
@@ -14,36 +15,7 @@ namespace MaximumBinaryTree {
             Console.WriteLine(root2.ToString());
         }
     }
-    public class TreeNode {
-        public int val;
-        public TreeNode? left;
-        public TreeNode? right;
-        public TreeNode(int val = 0,
-            TreeNode? left = null, TreeNode? right = null) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-        public override string ToString() {
-            if (this == null) return "";
-            Queue<TreeNode?> queue = new();
-            queue.Enqueue(this);
-            string ans = "";
-            while (queue.Count > 0) {
-                TreeNode? node = queue.Dequeue();
-                if (node == null) {
-                    ans += "null ";
-                    continue;
-                }
-                ans += string.Format("{0} ", node.val);
-                if (node.left != null || node.right != null) {
-                    queue.Enqueue(node.left);
-                    queue.Enqueue(node.right);
-                }
-            }
-            return ans;
-        }
-    }
+    
     public class Solution {
 
         public TreeNode ConstructMaximumBinaryTree(int[] nums) {

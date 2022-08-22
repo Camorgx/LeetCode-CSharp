@@ -6,6 +6,7 @@
     <RootNamespace>LeetCode_CSharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
 </Project>
