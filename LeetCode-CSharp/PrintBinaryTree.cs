@@ -1,4 +1,4 @@
-﻿using LeetCode_CSharp;
+﻿using CommonStructure;
 
 namespace PrintBinaryTree {
     public static class Test {

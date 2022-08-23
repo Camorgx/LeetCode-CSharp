@@ -1,5 +1,5 @@
 ﻿// https://leetcode.cn/problems/maximum-binary-tree/
-using LeetCode_CSharp;
+using CommonStructure;
 
 namespace MaximumBinaryTree {
     public static class Test {

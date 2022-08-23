@@ -1,4 +1,4 @@
-﻿namespace LeetCode_CSharp {
+﻿namespace CommonStructure {
     // 通用二叉树节点类，提供层次遍历的 ToString() 重写
     public class TreeNode {
         public int val;
