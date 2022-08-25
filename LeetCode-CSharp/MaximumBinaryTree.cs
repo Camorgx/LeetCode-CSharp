@@ -1,4 +1,5 @@
 ﻿// https://leetcode.cn/problems/maximum-binary-tree/
+
 using CommonStructure;
 
 namespace MaximumBinaryTree {

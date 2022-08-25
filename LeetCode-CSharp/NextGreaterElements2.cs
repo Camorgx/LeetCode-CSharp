@@ -1,4 +1,6 @@
-﻿namespace NextGreaterElements2 {
+﻿// https://leetcode.cn/problems/next-greater-element-ii/
+
+namespace NextGreaterElements2 {
     public static class Test {
         public static void RunTest() {
             Solution solution = new();

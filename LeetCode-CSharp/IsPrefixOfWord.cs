@@ -1,4 +1,6 @@
-﻿namespace IsPrefixOfWord {
+﻿// https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/
+
+namespace IsPrefixOfWord {
     public static class Test {
         public static void RunTest() {
             Solution solution = new();
