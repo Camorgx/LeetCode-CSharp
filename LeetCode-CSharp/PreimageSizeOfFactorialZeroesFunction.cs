@@ -1,4 +1,6 @@
-﻿namespace PreimageSizeOfFactorialZeroesFunction {
+﻿// https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/
+
+namespace PreimageSizeOfFactorialZeroesFunction {
     public static class Test {
         public static void RunTest() {
             Solution solution = new();
