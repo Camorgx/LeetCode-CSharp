@@ -1,5 +1,7 @@
 ﻿namespace CommonStructure {
-    // 通用二叉树节点类，提供层次遍历的 ToString() 重写
+    /// <summary>
+    /// 通用二叉树节点类，提供层次遍历的 ToString() 重写
+    /// </summary>
     public class TreeNode {
         public int val;
         public TreeNode? left;
@@ -10,7 +12,9 @@
             this.left = left;
             this.right = right;
         }
-        // 以层次遍历构建一棵二叉树
+        /// <summary>
+        /// 以层次遍历构建一棵二叉树
+        /// </summary>
         public TreeNode(in int[] data) {
             Queue<TreeNode> que = new();
             if (data[0] == -1) {
@@ -36,7 +40,9 @@
                 ++cnt;
             }
         }
-        // 输出给定二叉树的层次遍历
+        /// <summary>
+        /// 输出给定二叉树的层次遍历
+        /// </summary>
         public override string ToString() {
             if (this == null) return "";
             Queue<TreeNode?> queue = new();
