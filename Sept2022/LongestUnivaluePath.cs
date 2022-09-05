@@ -6,11 +6,11 @@ namespace Sept2022 {
     public class LongestUnivaluePath : ITestable {
         public void RunTest() {
             Solution solution = new();
-            int[][] tests = new int[][] {
-                new int[] { 5, 4, 5, 1, 1, -1, 5 },
-                new int[] { 1, 4, 5, 4, 4, -1, 5 }
+            int?[][] tests = new int?[][] {
+                new int?[] { 5, 4, 5, 1, 1, null, 5 },
+                new int?[] { 1, 4, 5, 4, 4, null, 5 }
             };
-            foreach (int[] test in tests)
+            foreach (var test in tests)
                 Console.WriteLine(
                     solution.LongestUnivaluePath(new TreeNode(test)));
         }

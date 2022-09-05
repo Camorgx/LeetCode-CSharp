@@ -5,10 +5,10 @@ using CommonStructure;
 namespace MaximumWidthOfBinaryTree {
     public static class Test {
         public static void RunTest() {
-            int[][] test = new int[][] {
-                new int[] { 1, 3, 2, 5, 3, -1, 9 },
-                new int[] { 1, 3, 2, 5, -1, -1, 9, 6, -1, 7 },
-                new int[] { 1, 3, 2, 5 }
+            int?[][] test = new int?[][] {
+                new int?[] { 1, 3, 2, 5, 3, null, 9 },
+                new int?[] { 1, 3, 2, 5, null, null, 9, 6, null, 7 },
+                new int?[] { 1, 3, 2, 5 }
             };
             Solution solution = new();
             foreach (var set in test) {

@@ -7,7 +7,7 @@ namespace PrintBinaryTree {
         public static void RunTest() {
             Solution solution = new();
             
-            var test1 = solution.PrintTree(new TreeNode(new int[]{ 1, 2 }));
+            var test1 = solution.PrintTree(new TreeNode(new int?[]{ 1, 2 }));
             foreach (var line in test1) {
                 foreach (var item in line)
                     Console.Write("\"{0}\" ", item);
@@ -17,7 +17,7 @@ namespace PrintBinaryTree {
             Console.WriteLine();
 
             var test2 = solution.PrintTree(
-                new TreeNode(new int[] { 1, 2, 3, -1, 4 }));
+                new TreeNode(new int?[] { 1, 2, 3, null, 4 }));
             foreach (var line in test2) {
                 foreach (var item in line)
                     Console.Write("\"{0}\" ", item);
