@@ -48,7 +48,7 @@
         /// 实现二叉树的反序列化，输入的格式应为 "[1,2,3]"
         /// </summary>
         public TreeNode(string data) {
-            var strs = data.Substring(1, data.Length - 2).Split(",");
+            var strs = data[1..^1].Split(",");
             IList<int?> list = new List<int?>();
             foreach (var item in strs)
                 if (item.Length != 0)
