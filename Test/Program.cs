@@ -4,7 +4,7 @@ using Sept2022;
 namespace Test {
     internal class Program {
         static void Main() {
-            ITestable test = new CrawlerLogFolder();
+            ITestable test = new MeanOfArrayAfterRemovingSomeElements();
             test.RunTest();
         }
     }
