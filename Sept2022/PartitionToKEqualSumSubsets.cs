@@ -1,4 +1,6 @@
-﻿using CommonStructure;
+﻿// https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/
+
+using CommonStructure;
 
 namespace Sept2022 {
     public class PartitionToKEqualSumSubsets : ITestable {
