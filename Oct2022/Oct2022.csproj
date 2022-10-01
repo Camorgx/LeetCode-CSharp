@@ -1,16 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aug2022\Aug2022.csproj" />
-    <ProjectReference Include="..\Oct2022\Oct2022.csproj" />
-    <ProjectReference Include="..\Sept2022\Sept2022.csproj" />
+    <ProjectReference Include="..\CommonStructure\CommonStructure.csproj" />
   </ItemGroup>
 
 </Project>
