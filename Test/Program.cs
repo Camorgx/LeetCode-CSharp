@@ -4,7 +4,7 @@ using Oct2022;
 namespace Test {
     internal class Program {
         static void Main() {
-            ITestable test = new MinimumAddToMakeParenthesesValid();
+            ITestable test = new SubdomainVisitCount();
             test.RunTest();
         }
     }
