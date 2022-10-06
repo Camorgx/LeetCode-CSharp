@@ -4,7 +4,7 @@ using Oct2022;
 namespace Test {
     internal class Program {
         static void Main() {
-            ITestable test = new SubdomainVisitCount();
+            ITestable test = new ThreeEqualParts();
             test.RunTest();
         }
     }
