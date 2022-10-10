@@ -4,7 +4,7 @@ using Oct2022;
 namespace Test {
     internal class Program {
         static void Main() {
-            ITestable test = new ScoreOfParentheses();
+            ITestable test = new MinimumSwapsToMakeSequencesIncreasing();
             test.RunTest();
         }
     }

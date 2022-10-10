@@ -25,9 +25,9 @@ namespace Oct2022 {
                     }
                 }
                 if (subStrLen == s.Length)
-                    return 2 * ScoreOfParentheses(s.Substring(1, subStrLen - 2));
-                else return ScoreOfParentheses(s.Substring(0, subStrLen))
-                        + ScoreOfParentheses(s.Substring(subStrLen));
+                    return 2 * ScoreOfParentheses(s[1 .. (subStrLen - 1)]);
+                else return ScoreOfParentheses(s[..subStrLen])
+                        + ScoreOfParentheses(s[subStrLen..]);
             }
         }
     }
